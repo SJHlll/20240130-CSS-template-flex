@@ -288,7 +288,7 @@ section.contents .partner ul li {
   margin: 30px 0;
 /*
    못한거 -> 이미지 가운데정렬
-   못한이유, display: flex; 안넣음
+   못한 이유 -> display: flex; 안넣음
 */
   display: flex;
   justify-content: center;
@@ -302,4 +302,61 @@ section.contents .partner ul li:hover {
   transition: 0.5s;
 }
 
+/* .contact */
+section.contents .contact {
+  width: 90%;
+  padding: 220px 0;
 
+  /* 배경사진, 그 뭔가 신기한 그거임 */
+  background: url(../img/contact.jpg) no-repeat center/cover fixed;
+}
+
+section.contents .contact .inner {
+  width: 70%;
+  margin: 0 auto;
+  font-size: 17px;
+  line-height: 1.4;
+}
+
+section.contents .contact .inner .tel {
+  font-size: 55px;
+  font-weight: bold;
+  margin: 50px 0;
+}
+
+/* footer style */
+footer {
+  background-color: #222;
+  color: #999;
+  padding: 0 80px 80px;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer ul li {
+  line-height: 1.5;
+}
+
+footer ul li:nth-child(2) {
+  color: #eee;
+  font-size: 16px;
+  line-height: 2;
+}
+
+footer ul li:nth-child(2) span {
+  font-weight: bold;
+  margin-right: 10px;
+  color: #999;
+}
+
+footer .go-top {
+  color: white;
+  font-size: 50px;
+  position: fixed;
+  right: 50px;
+  bottom: 60px;
+}
